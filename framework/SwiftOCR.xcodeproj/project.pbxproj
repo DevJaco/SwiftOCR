@@ -54,6 +54,8 @@
 		377885731CCCF37400A41020 /* TrainingBackground_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3778856C1CCCF37400A41020 /* TrainingBackground_4.png */; };
 		377885741CCCF37400A41020 /* TrainingBackground_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3778856C1CCCF37400A41020 /* TrainingBackground_4.png */; };
 		377ECDCC1CCA432E0050EFD4 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 373ED1491CC9521B00C4758B /* GPUImage.framework */; };
+		B3ECB2381CD794A9008E2D37 /* CrossPlatformSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ECB2371CD794A9008E2D37 /* CrossPlatformSupport.swift */; settings = {ASSET_TAGS = (); }; };
+		B3ECB2411CD79576008E2D37 /* CrossPlatformSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ECB2371CD794A9008E2D37 /* CrossPlatformSupport.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,6 +133,7 @@
 		3778856A1CCCF37400A41020 /* TrainingBackground_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TrainingBackground_2.png; path = "Realistic Training Images/TrainingBackground_2.png"; sourceTree = "<group>"; };
 		3778856B1CCCF37400A41020 /* TrainingBackground_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TrainingBackground_3.png; path = "Realistic Training Images/TrainingBackground_3.png"; sourceTree = "<group>"; };
 		3778856C1CCCF37400A41020 /* TrainingBackground_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TrainingBackground_4.png; path = "Realistic Training Images/TrainingBackground_4.png"; sourceTree = "<group>"; };
+		B3ECB2371CD794A9008E2D37 /* CrossPlatformSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossPlatformSupport.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				373ED0C91CC9076300C4758B /* SwiftOCR.swift */,
+				B3ECB2371CD794A9008E2D37 /* CrossPlatformSupport.swift */,
 				373ED0CA1CC9076300C4758B /* SwiftOCRTraining.swift */,
 				373ED1281CC912C000C4758B /* OCR-Network */,
 				373ED11E1CC90C4200C4758B /* Supporting files */,
@@ -506,6 +510,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				373ED0CC1CC9076300C4758B /* SwiftOCRTraining.swift in Sources */,
+				B3ECB2381CD794A9008E2D37 /* CrossPlatformSupport.swift in Sources */,
 				373ED10C1CC90A2300C4758B /* Matrix.swift in Sources */,
 				373ED1161CC90A2300C4758B /* Vector.swift in Sources */,
 				373ED19A1CC9634500C4758B /* UnionFind.swift in Sources */,
@@ -532,6 +537,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				373ED1151CC90A2300C4758B /* Storage.swift in Sources */,
+				B3ECB2411CD79576008E2D37 /* CrossPlatformSupport.swift in Sources */,
 				373ED1171CC90A2300C4758B /* Vector.swift in Sources */,
 				373ED1091CC90A2300C4758B /* FFNN+Storage.swift in Sources */,
 				373ED19B1CC9634500C4758B /* UnionFind.swift in Sources */,
